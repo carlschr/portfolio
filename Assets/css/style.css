@@ -25,7 +25,7 @@ footer {
     display: block;
     margin-top: 20px; /* space between content and footer */
     box-sizing: border-box;
-    position: fixed;
+    position: fixed !important;
     bottom: 0;
     width: 100%;
 }
