@@ -1,8 +1,38 @@
+/* Shared rules */
+
+body {
+    background-color: #CCC;
+}
+
 a {
     font-size: .9rem !important;
 }
+
+p {
+    font-size: 1rem !important;
+}
+
+.container {
+    padding-bottom: 20px !important;
+    border: solid 1px black !important;
+}
+
+footer {
+    height: 60px;  /* footer height */
+    padding-top: 20px;
+    display: block;
+    margin-top: 20px; /* space between content and footer */
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+
+/* About Me rules */
 
 .navbar-brand {
     font-size: 1.4rem !important;
 }
 
+.img-responsive {
+    max-width: 250px !important;
+}
