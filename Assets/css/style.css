@@ -2,6 +2,8 @@
 
 body {
     background-color: #CCC;
+    margin-bottom: 100px;
+    min-height: 800px;
 }
 
 a {
@@ -23,7 +25,8 @@ footer {
     display: block;
     margin-top: 20px; /* space between content and footer */
     box-sizing: border-box;
-    position: relative;
+    position: fixed;
+    bottom: 0;
     width: 100%;
 }
 
