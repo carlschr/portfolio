@@ -64,6 +64,8 @@ footer {
 }
 
 /* Contact Rules */
-button {
-    background-color: #E63946 !important;
+.contact-link {
+    font-size: 1.2rem !important;
+    color: rgb(120, 255, 176);
+    
 }
